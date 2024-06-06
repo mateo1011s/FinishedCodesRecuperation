@@ -18,14 +18,21 @@ public abstract class FizzBuzzNumbers extends Application {
         System.out.println("The numbers are: ");
 
         int number=0;
+
         for (number=0;number<=100;number++) {
             if ((number % 3 == 0) && (number % 5 == 0)) {
                 System.out.println("FizzBuzz");
-            } else if(number % 3 == 0){
+            }
+
+            else if(number % 3 == 0){
                 System.out.println("Fizz");
-            } else if (number % 5 == 0 ){
+            }
+
+            else if (number % 5 == 0 ){
                 System.out.println("Buzz");                
-            } else {
+            }
+
+            else {
                 System.out.println(number);
             }
         }
