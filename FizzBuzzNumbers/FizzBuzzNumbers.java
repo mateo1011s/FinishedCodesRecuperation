@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 import java.math.*;
 import java.io.IOException;
 
-public abstract class FizzBuzzNumbers extends Application {
+public class FizzBuzzNumbers {
     public static void main(String[] args) {
 
         System.out.println("These code will print the numbers from 1 to 100 with these conditions: ");
