@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Scanner;
 
-public abstract class StairsDraw extends Application {
+public class StairsDraw {
     public static void main(String[] args) {
 
         System.out.println("****** Stairs Drawer ******");
