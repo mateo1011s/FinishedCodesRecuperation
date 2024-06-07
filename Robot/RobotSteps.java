@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Scanner;
 
-public abstract class RobotSteps extends Application {
+public class RobotSteps  {
     public static void main(String[] args) {
 
         System.out.println("This code will help us to known the coordinates of a Robot that will move a N number of steps  ");
